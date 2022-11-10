@@ -22,8 +22,8 @@ if (window.confirm('¿Desea colocar un fondo de pantalla?')) {
 
 for (let i = 0; i < texto.length; i++) { //agrega la clase pero no se muestran los estilos en el nav
     if (i % 2 == 0){
-        texto[i].classList.add('descatadoPar')
+        texto[i].classList.add('destacadoPar')
     } else {
-        texto[i].classList.add('descatadoImpar')
+        texto[i].classList.add('destacadoImpar')
     }
 }
